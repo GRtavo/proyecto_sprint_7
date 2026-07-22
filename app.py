@@ -3,7 +3,7 @@ import plotly.graph_objects as go  # Importación de plotly.graph_objects como g
 import streamlit as st
 # Leer los datos del archivo CSV
 car_data = pd.read_csv(
-    'C:/Users/gusta/OneDrive/Desktop/Curso Ciencia de Datos/Sprint 7/Proyecto/proyecto_sprint_7/vehicles_us.csv')
+    'vehicles_us.csv')
 
 # Añadir un encabezado a la aplicación Streamlit
 st.header('Análisis Exploratorio de Datos (EDA) de anuncios de venta de autos en USA')
